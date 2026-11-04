@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimmy. | BSIT Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Global Moving Background Circles Container -->
+    <div class="global-bg-animation">
+        <div class="bg-circle c1"></div>
+        <div class="bg-circle c2"></div>
+        <div class="bg-circle c3"></div>
+        <div class="bg-circle c4"></div>
+        <div class="bg-circle c5"></div>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="logo">
+            <span class="logo-icon"><i class="fa-solid fa-feather"></i></span>
+            <span class="logo-text">Kimmy.</span>
+        </div>
+        <nav class="navbar">
+            <a href="#home" class="active">HOME</a>
+            <a href="#about">ABOUT ME</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#projects">PROJECT</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="hero-text-side">
+                <p class="greeting">Hi, I'm Kimberlyn Osabel</p>
+                <h1 class="hero-title">BSIT<br><span class="highlight">Student</span></h1>
+                <p class="hero-description">
+                    Bringing digital visions to life through code and design is what excites me most as a future IT professional.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Get in Touch</a>
+                </div>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <!-- Interactive 3D Student ID Card Side -->
+            <div class="hero-image-side">
+                <div class="lanyard-strap"></div>
+                <div class="id-card-wrapper" id="idCard">
+                    <div class="id-card-header">
+                        <div class="school-badge">IT DEPARTMENT</div>
+                        <div class="id-chip"></div>
+                    </div>
+                    
+                    <div class="id-photo-frame">
+                        <!-- Replace src with your ID photo file name e.g., 'my-id-photo.png' -->
+                        <img src="kim.jpg" alt="Kimberlyn ID Photo" class="id-photo">
+                    </div>
+
+                    <div class="id-details">
+                        <h2 class="id-name">Kimberlyn Osabel</h2>
+                        <p class="id-course">Wev Developer</p>
+                        <div class="id-meta">
+                            <span>ID No: <strong>2026-0815</strong></span>
+                            <span>Status: <strong>single</strong></span>
+                        </div>
+                    </div>
+
+                    <div class="id-barcode-area">
+                        <div class="barcode-lines"></div>
+                        <span class="barcode-text">*BSIT-KIM-2026*</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="section-title">
+            <h2>About Me</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-container">
+            <div class="about-card single-box">
+                <p>
+                    Hello! My name is Kimberlyn Osabel. I am an IT student. I mix what I learn in class with my experience to get better at everything tech. As a beginner, I know there is so much more to learn, but I am enjoying every step. I love to make websites and solve problems, even when it's tough. Each project I do, for school or personal, helps me learn new things. What makes me happy is turning basic ideas into real projects that can help people. As I keep studying and practicing, my goal is to improve my web making and coding skills. I am working hard to build a good future in tech. With dedication and by asking questions, I can build great things and help the tech world.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="section-title">
+            <h2>My Skills</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-item"><i class="fa-brands fa-html5"></i> HTML5 / CSS3</div>
+            <div class="skill-item"><i class="fa-brands fa-js"></i> JavaScript</div>
+            <div class="skill-item"><i class="fa-solid fa-database"></i> MySQL / Database</div>
+            <div class="skill-item"><i class="fa-brands fa-figma"></i> UI/UX Design</div>
+            <div class="skill-item"><i class="fa-brands fa-java"></i> Java Programming</div>
+            <div class="skill-item"><i class="fa-solid fa-code"></i> Responsive Design</div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="projects" class="section projects-section">
+        <div class="section-title">
+            <h2>Featured Projects</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-img-wrapper">
+                    <img src="laundry.png" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h3>Laundry hub</h3>
+                    <p>A movie ticketing web mockup featuring user pathways and interactive transaction modification triggers.</p>
+                    <a href="#" class="project-link">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img-wrapper">
+                    <img src="food.jpg" alt="Project 2">
+                </div>
+                <div class="project-info">
+                    <h3>Food hub</h3>
+                    <p>An interactive multi-screen mobile user experience layout designed for assignment organization.</p>
+                    <a href="#" class="project-link">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="section-title">
+            <h2>Get in Touch</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info-card">
+                <h3>Let's Connect</h3>
+                <p>Have a project in mind, a question, or just want to say hi? Send me a message or drop an email!</p>
+                <div class="contact-detail">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>osabelkimberlyn@gmail.com</span>
+                </div>
+                <div class="contact-detail">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Canduman, Manduae</span>
+                </div>
+            </div>
+            
+            <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Kimberlyn Osabel. Crafted with pink & white elegance.</p>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
